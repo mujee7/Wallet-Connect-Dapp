@@ -1,0 +1,86 @@
+.head {
+  height: 60px;
+  padding-top: 10px;
+  border-bottom: 1px solid black;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* *{
+    background-image: linear-gradient(to bottom right, red, yellow);
+} */
+
+.logo img {
+  height: 40px;
+  width: 40px;
+}
+.settings {
+  height: 25px;
+  width: 25px;
+}
+.center {
+  text-align: center;
+}
+.end {
+  text-align: end;
+}
+.margintop {
+  margin-top: 5px;
+}
+.bold {
+  font-weight: bold;
+}
+.wallet {
+  width: 150px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  margin-top: 5px;
+  border: none;
+}
+.check {
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  margin-top: 5px;
+  border: none;
+}
+@media only screen and (max-width: 768px) {
+  .margintop {
+    display: none;
+  }
+  .lol {
+    text-align: center;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    padding-top: 5px;
+
+    width: 100%;
+    overflow: hidden;
+    /* margin-bottom: 10px; */
+    background-color: white;
+  }
+  * {
+    overflow: none;
+  }
+  .end {
+    text-align: center;
+  }
+  .mSize {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .lol {
+    display: none;
+  }
+}
+body {
+  background: linear-gradient(to right, #b1c0dd, #9295e8, #b1c0dd);
+}
+.active {
+  background-color: white;
+}

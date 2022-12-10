@@ -1,0 +1,106 @@
+.swap {
+  width: 320px;
+  height: 400px;
+  border-radius: 30px;
+  background: linear-gradient(to right, #b1c0dd, #b1c0dd, #b1c0dd);
+  box-shadow: -15px -15px 50px #9295e8, 15px 15px 50px #b1c0dd;
+  margin: auto;
+  margin-top: 110px;
+}
+.swapHead {
+  height: 50px;
+  background-color: #84a8f268;
+
+  border-radius: 30px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+.swapHead div {
+  background-color: black;
+  border-radius: 30px;
+  width: 100px;
+  height: 30px;
+  color: white;
+  margin: auto;
+}
+.Input input {
+  border: none;
+  height: 50px;
+  width: 200px;
+  font-size: 24px;
+  background-color: #9295e8;
+  margin-left: 5px;
+  color: white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input::placeholder {
+  color: white;
+}
+input:focus,
+textarea:focus {
+  background-color: #9295e8;
+  outline: none;
+}
+.Input {
+  margin-top: 20px;
+  height: 80px;
+  background-color: #9295e8;
+  border-radius: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+
+  display: flex;
+}
+.Blocklogo {
+  height: 25px;
+  width: 25px;
+}
+.ModelOpen {
+  border-radius: 20px;
+  background-color: #b1c0dd;
+  border: none;
+}
+.BlockName {
+  color: white;
+  text-decoration: none;
+}
+.BlockName:hover {
+  color: white;
+}
+.SwapDiv {
+  align-items: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.SwapButton {
+  margin-top: 30px;
+  color: white;
+  background-color: black;
+  border-radius: 30px;
+  width: 200px;
+  height: 35px;
+}
+@media only screen and (min-width: 1300px) {
+input{
+    margin-left: 50px;
+}
+
+}
+
+
+
+.BalanceDiv{
+  font-weight: bold;
+  margin-top: 20px;
+}
